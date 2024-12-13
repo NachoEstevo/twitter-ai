@@ -1,6 +1,6 @@
 services:
     tee:
-        command: ["pnpm", "start"]
+        command: ["pnpm", "start", "non-interactive"]
         build:
             context: .
             dockerfile: Dockerfile
